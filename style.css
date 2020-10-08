@@ -1,0 +1,64 @@
+body{
+    background-color: #1AC8DB;
+}
+#container{
+    border: 3px solid black;
+    width: 265px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    background-color: #DEE2EC;
+    border-width: 0;
+    /* box-shadow: 5px 5px 5px #aaaaaa; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+}
+
+.type{
+  width: 97%;
+  height: 80px;
+  background-color: white;
+  font-size: 30px;
+  border-width: 0;
+}
+
+
+.clearBtn, .backBtn{
+    margin-top: 10px;
+    margin-left: 12px;
+    display: block;
+    width: 90%;
+    height: 30px;
+    border-width: 0;
+    cursor: pointer;
+    background-color: #0292B7;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+}
+
+.numBtn, .oprBtn{
+    width: 40px;
+    height: 40px;
+    margin: 12px;
+    float: left;
+    font-weight: bold;
+    font-size: 18px;
+    border-width: 0;
+    cursor: pointer;
+    background-color: #0292B7;
+    border-radius: 50%;
+    color: white;
+}
+
+
+
+.numBtn:hover, .oprBtn:hover, .clearBtn:hover, .backBtn:hover{
+    background-color: #85D2D0;
+
+}
+
+.numBtn:focus, .oprBtn:focus, .clearBtn:focus, .backBtn:focus, .type:focus{
+    outline: 0;
+}

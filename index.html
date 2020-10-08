@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div id="container">
+    <div>
+        <input type="text" class="type" id="result" placeholder="0">
+    </div>
+    <br>
+    <div>
+        <button class="clearBtn" onclick="clearResult()">C</button>
+        <button class="backBtn" onclick="backResult()">CE</button>
+    </div>
+    <br>
+    <div>
+        <button class="numBtn" onclick="getNum('7')">7</button>
+        <button class="numBtn" onclick="getNum('8')">8</button>
+        <button class="numBtn" onclick="getNum('9')">9</button>
+        <button class="numBtn" onclick="getNum('%')">%</button>
+    </div>
+    <div>
+        <button class="numBtn" onclick="getNum('4')">4</button>
+        <button class="numBtn" onclick="getNum('5')">5</button>
+        <button class="numBtn" onclick="getNum('6')">6</button>
+        <button class="numBtn" onclick="getNum('*')">x</button>
+    </div>
+    <div>
+        <button class="numBtn" onclick="getNum('1')">1</button>
+        <button class="numBtn" onclick="getNum('2')">2</button>
+        <button class="numBtn" onclick="getNum('3')">3</button>
+        <button class="numBtn" onclick="getNum('-')">-</button>
+    </div>
+    <div>
+        <button class="oprBtn" onclick="getNum('0')">0</button>
+        <button class="oprBtn" onclick="getResult()">=</button>
+        <button class="oprBtn" onclick="getNum('+')">+</button>
+        <button class="oprBtn" onclick="getNum('/')">/</button>
+    </div>
+
+</div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
